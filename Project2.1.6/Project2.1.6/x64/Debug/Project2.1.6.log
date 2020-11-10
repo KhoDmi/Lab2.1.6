@@ -1,0 +1,20 @@
+﻿  Main.cpp
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(1,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(4,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(8,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(52,5): error C2065: cout: необъявленный идентификатор
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(52,5): error C3861: cout: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(52,63): error C3861: endl: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(58,5): error C2065: cout: необъявленный идентификатор
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(58,5): error C3861: cout: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(58,29): error C3861: endl: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(60,9): error C2065: cout: необъявленный идентификатор
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(60,9): error C3861: cout: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(60,28): error C3861: enndl: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(64,13): error C3861: cout: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(65,9): error C2065: cout: необъявленный идентификатор
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(65,9): error C3861: cout: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Queue.h(65,17): error C3861: endl: идентификатор не найден
+C:\Users\Lenovo\source\repos\Project2.1.6\Project2.1.6\Main.cpp(192,38): warning C4244: -=: преобразование "double" в "int", возможна потеря данных
