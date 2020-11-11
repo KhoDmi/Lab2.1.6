@@ -3,7 +3,7 @@
 using namespace std;
 
 
-template<typename T=double>
+template<typename T>
 class Queue
 {
 public:

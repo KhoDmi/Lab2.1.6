@@ -121,7 +121,7 @@ int main()
 
 	int c = 1;
 
-	Queue<> qd(100);
+	/*Queue<double> qd(100);
 	double inp = 0;
 
 	do
@@ -137,20 +137,18 @@ int main()
 
 	qd.Pop();
 
-	qd.getQueue();
+	qd.getQueue();*/
 
 
 
 	Queue<char> qc(100);
-	char inpc;
 
 	do
 	{
 		cout << "input new element" << endl;
 		cin.clear();
 		cin.ignore(numeric_limits<streamsize>::max(), '\n');
-		inpc = cin.get();
-		qc.Push(inpc);
+		qc.Push();
 		cout << "is there any more elements?" << endl;
 		c = answerCheck();
 	} while (c != -1);

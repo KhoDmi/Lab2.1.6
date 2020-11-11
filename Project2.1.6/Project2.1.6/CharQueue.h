@@ -11,7 +11,7 @@ public:
     Queue(int = 100);
     ~Queue();
 
-    virtual void Push(char&);
+    virtual void Push();
     virtual void Pop();
     virtual void getQueue();
 private:
@@ -31,13 +31,21 @@ Queue<char>::Queue(int sizeofQueue) : sizeofQueue(sizeofQueue), begin(0), end(0)
 
 
 
-void Queue<char>::Push(char& newEl)
+void Queue<char>::Push()
 {
-    assert(curNumofEl < sizeofQueue);
-    queuePtr[end++] = newEl;
-    curNumofEl++;
-    if (end > sizeofQueue)
-        end -= sizeofQueue + 1;
+	cin.clear();
+	string num;
+	cin >> num;
+    int i = 0;
+	while (num[i])
+	{
+        assert(curNumofEl < sizeofQueue);
+        queuePtr[end++] = num[i];
+        curNumofEl++;
+        if (end > sizeofQueue)
+            end -= sizeofQueue + 1;
+        i++;
+	}
 }
 
 
